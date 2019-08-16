@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Layout Liquido</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			
+			body{
+				font-family: "Trebuchet MS", Helvetica, sans-serif;
+				background: #f2f2f2;
+			}
+
+			#container{
+				width: 85%;
+				margin: 0 auto;
+				background: #fff;
+				min-width: 720px;
+				/*max-width: 960px;*/
+			}
+
+			#marca{
+				width: 100%;
+				height: 200px;
+				background: #225992 url(imagens/cabecalho2.jpg) no-repeat center;
+				text-align: center;
+				line-height: 200px;
+			}
+
+			#conteudo{
+				width: 75%;
+				float: right;
+			}
+
+			#conteudo-principal{
+				width: 63%;
+				float: left;
+			}
+
+			img.img-noticia{
+				width: 96%;
+				padding: 2%; 
+				max-width: 600px;
+			}
+
+			#conteudo-secundario{
+				width: 34%;
+				float: right;
+				background: #d1d1d1;
+			}
+			#conteudo-secundario h2,
+			#conteudo-secundario p{
+				padding-left: 20px;
+				padding-right: 20px; 
+			}
+
+			#navegacao{
+				width: 23%;
+				float: left;
+				padding-top: 20px;
+				padding-bottom: 20px;
+				background: #d1d1d1;
+			}
+
+			#navegacao ul{
+				list-style: none;
+			}
+
+			#navegacao li a{
+				text-decoration: none;
+			}
+
+			#rodape{
+			 	clear: both;
+			 	background: #c4c4c4;
+			 	padding: 5px;
+			 	text-align: center;
+			}
+
+			/*#imagem{
+				width: 90%;
+				overflow: hidden;
+			}*/
+
+		</style>
+	</head>
+
+	<body>
+
+		<div id="container">
+
+			<div id="marca">MARCA</div>
+			<div id="conteudo">
+				<div id="conteudo-principal">
+
+					<h2>Lorem Ipsum Dolor Sir Amet</h2>
+					<!-- <div id="imagem">
+						
+						<img src="imagens/natureza.jpg">
+
+					</div> -->
+					<img class="img-noticia" src="imagens/natureza.jpg">
+					<p>
+						orem ipsum dolor sit amet, consectetur adipiscing elit. Cras at leo sit amet justo consequat tempus eu et nisl. Nunc lobortis, sapien eu ultrices eleifend, ipsum enim consequat lacus, eu imperdiet ex urna hendrerit erat.
+					</p>
+
+					<h2>Lorem Ipsum Dolor Sir Amet</h2>
+					<p>
+						orem ipsum dolor sit amet, consectetur adipiscing elit. Cras at leo sit amet justo consequat tempus eu et nisl. Nunc lobortis, sapien eu ultrices eleifend, ipsum enim consequat lacus, eu imperdiet ex urna hendrerit erat.
+					</p>
+
+				</div>
+				<div  id="conteudo-secundario">
+					
+					<h2>Lorem Ipsum Dolor Sir Amet</h2>
+					<p>
+						orem ipsum dolor sit amet, consectetur adipiscing elit. Cras at leo sit amet justo consequat tempus eu et nisl. Nunc lobortis, sapien eu ultrices eleifend, ipsum enim consequat lacus, eu imperdiet ex urna hendrerit erat.
+					</p>
+				</div>
+			</div>
+			<div id="navegacao">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Sobre</a></li>
+					<li><a href="#">Notícias</a></li>
+					<li><a href="#">Produtos</a></li>
+					<li><a href="#">Serviços</a></li>
+					<li><a href="#">Clientes</a></li>
+					<li><a href="#">Contato</a></li>
+				</ul>
+			</div>
+			<div id="rodape">RODAPÉ</div>
+
+		</div>
+
+	</body>
+</html>

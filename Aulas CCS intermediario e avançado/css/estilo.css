@@ -1,43 +1,10 @@
-/*****************************/
-/*Herança e especificidade*/
-/*****************************/
-
-
- /*p{
-	color: green !important;
-}
-
- p{
-	color: red;
-}*/
-
-/*Se um seletor for mais especifico que outro a 
-regra mais especifica será aplicada (terá 
-precedencia sobre regras mais gerais)*/
-
-/*{
-	color: red;
-}
-
-h2{
-	color: blue;
-}
-
-h2.verde{
-	color:green;
-}
-
-h2#amarelo{
-	color:yellow;
-}
-*/
 
 /*****************************/
 /*Barra de Navegação Vertical*/
 /*Marcando pagina atual*/
 /*****************************/
 
-/*ul{
+/*/*ul{
 	list-style-type: none;
 	padding: 0px;
 	margin: 0px;
@@ -77,83 +44,3 @@ a:hover{
 	background-color: #f99200;
 }
 */
-/*****************************/
-/*Barra de Navegação Horizontal*/
-/*****************************/
-
-/*ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	width: 720px;
-	background: #159cb0 url(../imagens/fundo-horizontal.png) repeat-x;
-	float: left;
-}
-
-ul li{
-	float: left;
-}
-
-ul a{
-	display: block;
-	padding: 0 2em;
-	line-height: 2em;
-	text-decoration: none;
-	color: #fff;
-	background:url(../imagens/divisor.png) repeat-y;
-}
-
-ul .primeiro a{
-	background: none;
-}
-
-ul a:hover{
-	color: #085662;
-	background: #44cade;
-}
-
-#home #navegacao-horizontal .home a{
-	color: #085662;
-	background: #44cade;
-}*/
-/*****************************/
-/*Navegação com barras*/
-/*****************************/
-
-body{
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-}
-
-ul{
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	width: 720px;
-}
-ul li{
-	float: left;
-	background: url(../imagens/aba-direita.png) no-repeat top right;
-
-}
-
-li a{
-	display: block;
-	padding: 0 2em;
-	line-height: 3em;
-	text-decoration: none;
-	background: url(../imagens/aba-esquerda.png) no-repeat top left;
-	color: #fff;
-}
-
-ul a:hover{
-	color: #894a1f;
-}
-
-ul #atual{
-	background: url(../imagens/aba-direita-atual.png) no-repeat top right;
-}
-
-ul #atual a{
-	background: url(../imagens/aba-esquerda-atual.png) no-repeat top left;
-
-}
