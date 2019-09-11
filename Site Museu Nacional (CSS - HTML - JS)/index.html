@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Museu Nacional - Home</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!--[if lt IE 9]>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+        <![endif]-->
+	</head>
+
+	<body>
+
+        <div id="container"> <!-- Início Container -->
+            <header> <!-- Início Cabecalho/header -->
+
+                <div id="logo">
+                    <h1><a href="">Mudeu Nacional</a></h1>
+                </div>
+
+                <nav> <!-- Início Navegação -->
+
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Exposições</a></li>
+                        <li><a href="">Pesquisa</a></li>
+                        <li><a href="">Acervo</a></li>
+                        <li><a href="">Vídeos</a></li>
+                        <li><a href="">Fotos</a></li>
+                        <li><a href="">Contato</a></li>
+                    </ul>
+    
+                </nav> <!-- Fim Navegação -->
+
+            </header> <!-- Fim Cabecalho/header -->
+
+            <div id="principal"> <!-- Início Principal -->
+
+                <div id="conteudo"> <!-- Início Conteudo -->
+                    <section id="capa">
+                        <img src="res/museu.png">
+                    </section> 
+
+                    <section id="postagens">
+                        <article id="video">
+                            <h3>Conheça o museu</h3>
+                            <iframe width="310" height="170" src="https://www.youtube.com/embed/C20JdCthefs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </article>
+
+                        <article id="mapa">
+                            <h3>Mapa: encontre o museu</h3>
+                            <iframe src="https://www.google.com/maps/d/embed?mid=1jvp5c-MJdT0NMQpkPvR0OFzRtMw&hl=pt-BR" width="310" height="170"></iframe>
+                        </article>
+                        
+                        <article id="exposicao">
+                            <h3>Exposições</h3>
+                            <ul>
+                                <li><a href="">Os assustadores insetos</a></li>
+                                <li><a href="">O crânio de luzia</a></li>
+                                <li><a href="">Preguiça gigante</a></li>
+                                <li><a href="">Plantas do Brasil central</a></li>
+                                <li><a href="">Teresa Cristina</a></li>
+                                <li><a href="">Arte com Dinossauros</a></li>
+                                <li><a href=""><strong>Veja todos (65)</strong></a></li>
+                            </ul>
+                        </article>
+
+                        <article id="historia">
+                            <h3>200 anos de história</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium ac tellus pellentesque interdum. Ut porttitor tempus risus scelerisque placerat. Donec lacinia ligula risus, eget viverra elit varius quis.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium ac tellus pellentesque interdum. Ut porttitor tempus risus scelerisque placerat. Donec lacinia ligula risus, eget viverra elit varius quis.
+                            </p>
+                            <a href=""><strong>leia mais</strong></a>
+                        </article>
+
+                    </section>
+                </div> <!-- Fim Conteudo -->
+
+                <aside> <!-- Início Lateral/aside -->
+                    <section id="depoimento">
+                        <img src="res/depoimento.png">
+                    </section>
+
+                    <section id="visita">  <!-- Início seção visita -->
+                        <h4>Faça uma Visita</h4>
+                        <form>
+                            <fieldset>
+                                <legend>Selecione uma data</legend>
+                                <label for="data">Data</label>
+                                <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+                                <label for="qtd">Qtd. Pessoas</label>
+                                <input class="campo" style="width:30px;" type="text" id="qtd" value="1">
+                            </fieldset>
+
+                            <input class="botao" type="submit" value="Verificar Disponibilidade">
+                        </form>
+                    </section> <!-- Fim seção visita -->
+
+                    <section id="galeria"> <!-- Início Galeria -->
+                        <h1>Galeria de fotos</h1>
+
+                        <a href="">
+                            <img src="res/imagem1.jpg" height="93px" width="93px" alt="Descrição da imagem">
+                        </a>
+
+                        <a href="">
+                            <img src="res/imagem2.jpg" height="93px" width="93px" alt="Descrição da imagem">
+                        </a>
+
+                        <a href="">
+                            <img src="res/imagem3.jpg" height="93px" width="93px" alt="Descrição da imagem">
+                        </a>
+
+                        <a href="">
+                            <img src="res/imagem4.jpg" height="93px" width="93px" alt="Descrição da imagem">
+                        </a>
+                    </section> <!-- Fim Galeria -->
+
+                </aside> <!-- Fim Lateral/aside -->
+
+                <footer> <!-- Início Rodapé -->
+                    <p>
+                        <a href="">Home</a>
+                        <a href="">Exposicao</a>
+                        <a href="">Pesquisa</a>
+                        <a href="">Acervo</a>
+                        <a href="">Vídeo</a>
+                        <a href="">Fotos</a>
+                        <a href="">Contato</a>
+                    </p>
+                    <p>
+                        2019 <a href="">Museu Nacional</a>-  Todos os direitos reservados
+                    </p>
+                </footer><!-- Fim Rodapé -->
+            </div> <!-- Fim Principal -->
+        </div> <!-- Fim Containter -->
+
+	</body>
+</html>
