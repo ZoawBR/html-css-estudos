@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Novas Tags de Input do HTML5</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+        <![endif]-->        
+        <style type="text/css">
+
+        </style>
+	</head>
+    <!-- Lembrando que nem todas as tag vão funcionar em todos os navegadores, pois são bem novas; -->
+
+	<body>
+        
+        <form>
+            
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" required autofocus>
+            <br><br>
+            <!-- required = campo obrigatorio -->
+
+            <label for="email">Email</label>
+            <input type="email" id="email" required="required">
+            <br><br>
+
+            <label for="numero">Número</label>
+            <input type="number" id="numero" required min="5" max="10" step="2">
+            <br><br>
+
+            <label for="url">Url</label>
+            <input type="url" id="url" required placeholder="ex: http://www...">
+            <br><br>
+
+            <label for="pesquisa">Pesquisa</label>
+            <input type="search" id="pesquisa" required>
+            <br><br>
+            
+            <!-- Aparti daqui os browser podem nao reconhecer -->
+            <label for="range">Range</label>
+            <input type="range" id="range" min="1" max="5" value="2">
+            <br><br>
+
+            <label for="date">Data</label>
+            <input type="date" id="date" min="1" max="5" value="2">
+            <!-- Geralmente é usado Js para fazer isso -->
+            <br><br>
+
+            <label for="color">Cor</label>
+            <input type="color" id="color" min="1" max="5" value="2">
+            <!-- Geralmente é usado Js para fazer isso -->
+            <br><br>
+            
+            <input type="submit" name="" value="Enviar">
+
+        </form>
+
+	</body>
+</html>

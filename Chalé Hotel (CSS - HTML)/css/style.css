@@ -177,6 +177,7 @@ p{
     font-size: 1.1em;
     color: #615b2d;
     padding: 5px 0;
+    border: 1px solid red;
     background: url(../res/ornamento.png) no-repeat center right;
 }
 
