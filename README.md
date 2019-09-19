@@ -10,3 +10,4 @@ Alguns Projetos com temas ficticios (em ordem de aprendizado):
  - Chalé Hotel: https://prnt.sc/oxqexh
  - Museu Nacional: https://prnt.sc/p4qu6g
  - Finans: https://prnt.sc/p7st95
+ - Spotify Clone: https://prnt.sc/p8ap4j
