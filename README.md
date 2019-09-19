@@ -1,5 +1,5 @@
-# html-css-php-js
-Todo conteúdo usado para o estudo de HTML, CSS, PHP e JS.
+# html-css
+Todo conteúdo usado para o estudo de HTML e CSS.
 
 Alguns Projetos com temas ficticios (em ordem de aprendizado):
  - Boku no Hero: http://prntscr.com/ou9dye
